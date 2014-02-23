@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+     <EditTextPreference
+          android:title="Custom Message 1"
+          android:summary="A message that you create"
+          android:key="custom_message_1" />
+
+    <CheckBoxPreference
+          android:title="Second Custom Message?"
+          android:summaryOn="There will be a second message."
+          android:summaryOff="There will not be a second message."
+          android:key="chkbox_second_custom_message" />
+</PreferenceScreen>
